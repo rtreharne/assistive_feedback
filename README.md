@@ -13,6 +13,12 @@ Best to do this with pipenv:
 
 `pip3 install -r requirements.txt`
 
+## Create a config.py file
+
+Make a duplicate of the config-example.py and rename it config.py.
+
+Update the variables in the file with the relevant URLS/TOKENS.
+
 ## How to run
 
 `python3 main.py`
