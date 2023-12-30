@@ -6,6 +6,8 @@ from datetime import datetime, timedelta
 import docx2txt
 import PyPDF2
 from config import CANVAS_API_TOKEN, CANVAS_API_URL
+import random
+import tools
 
 
 
@@ -30,12 +32,12 @@ def get_submissions(course_id, assignment_id):
     return submissions
 
 
-def download_submissions(submissions):
+def download_submissions(submissions, dir="submissions"):
     """
     Download the submissions to a folder.
     """
     # Create a folder for the submissions
-    submissions_folder = Path("submissions")
+    submissions_folder = Path(dir)
     submissions_folder.mkdir(exist_ok=True)
 
     # Download the submissions
@@ -60,12 +62,12 @@ def download_submissions(submissions):
             continue
 
 
-def convert_to_text():
+def convert_to_text(dir="submissions"):
     """
     Convert the submissions to plain text.
     """
     # Get the submissions folder
-    submissions_folder = Path("submissions")
+    submissions_folder = Path(dir)
 
     # Convert the submissions to plain text
     for submission in submissions_folder.iterdir():
@@ -110,6 +112,38 @@ def pdf_to_txt(pdf_path):
     return text
 
 
+def get_references_by_dir(dir="submissions"):
+    """
+    Convert the submissions to plain text.
+    """
+    # Get the submissions folder
+    submissions_folder = Path(dir)
+
+    # Convert the submissions to plain text
+    for submission in submissions_folder.iterdir():
+        # Check if the submission is a zip file
+
+        if submission.is_dir():
+            # Get the folder name
+            folder_name = submission.stem
+
+            # Get the folder
+            folder = submissions_folder / folder_name
+
+            # Convert the files to plain text
+            for file in folder.iterdir():
+
+                absolute_path = os.path.abspath(file)
+                print(absolute_path)
+
+                references = tools.extract_references(tools.read_text(absolute_path))
+
+                ref_fname = absolute_path.split(".")[0] + "_references.txt"
+
+                # Write the text to a file
+                with open(ref_fname, "w", encoding="utf-8") as f:
+                    f.write(references)
+
 
 def main():
     """
@@ -125,11 +159,21 @@ def main():
     # Get the submissions
     submissions = get_submissions(course_id, assignment_id)
 
+    # Seed random
+    random.seed(42)
+
+    # Get a sample of 10 submissions.
+    submissions = random.sample(submissions, 10)
+
     # Download the submissions
+    dir = "submissions"
     download_submissions(submissions)
 
     # Convert the submissions to plain text
     convert_to_text()
+
+    # Get the references
+    get_references_by_dir()
 
 
 # Main function

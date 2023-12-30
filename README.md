@@ -1,24 +1,17 @@
 # ASSISTIVE FEEDBACK
 
-## Objectives
+R. Treharne, K. Atkins and J. Foster
 
-Develop some Python that can:
+School of Life Sciences TEL Team. University of Liverpool
 
-+ Download submissions for a Canvas Assignment and convert them to plain text (DONE, RT).
-+ Use ChatGPT to generate SPAG feedback and signposting to resources for students.
+<img src="logo.jpg" alt="UoL logo" width="200"/>
 
-## Install requirements
+## Overview
 
-Best to do this with pipenv:
+The rapid adoption of Generative Artificial Intelligence (GAI) by students in higher education to complete written assignments is currently a contentious topic among academic teaching staff and is being debated continuously and fiercly. Equivalent attention is yet to be paid to ideas that involve using GAI to, where appropriate, automate the delivery of quality, trustworthy feedback to students on their written work. Such ideas could significantly improve the consistency of feeback received by students while dramatically reducing the marking workload of academic staff.
 
-`pip3 install -r requirements.txt`
+This project is a case study of how GAI, in this case Chat-GPT, can be used to provide automated feedback on student essays. Initially, the project is only concerned with providing feedback on the quality of an essay's reference list and not on the content of the essay directly. This allows us to circumnavigate concerns over submitting our student essays to a 3rd party tool, i.e. might Chat-GPT offer up an augmented version of one of our own student essays if provoked? Also, it allows us to narrow the focus of this project to a small, self-contained, reproducible task - perfect for the GAI arena.
 
-## Create a config.py file
 
-Make a duplicate of the config-example.py and rename it config.py.
+## Usage
 
-Update the variables in the file with the relevant URLS/TOKENS.
-
-## How to run
-
-`python3 main.py`
