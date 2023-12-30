@@ -15,9 +15,12 @@ def read_text(path):
 def extract_references(text):
     lines = text.split("\n")
 
+    found_references = False
+
     markers = [
         "reference",
-        "bibliography"
+        "bibliography",
+        "word count",
     ]
     
     # Find index of line that contains ["References", "REFERENCES", "Bibliography", "BIBLIOGRAPHY" etc]
@@ -25,12 +28,16 @@ def extract_references(text):
         
         # if line containes any of the markers
         if any(marker in line.strip().lower() for marker in markers) and len(line.strip()) < 20:
+            found_references = True
             break
-        
-    references = lines[index:]
+    
+    if not found_references:
+        return ""
+    else:
+        references = lines[index:]
 
-    # join the lines with "\n"
-    return "\n".join(references)
+        # join the lines with "\n"
+        return "\n".join(references)
 
 def save_references(references, fname):
     """
