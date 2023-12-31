@@ -52,7 +52,7 @@ def download_submissions(submissions, dir="submissions"):
         # Create a folder for the user
         user_folder = submissions_folder / user["sortable_name"].replace(", ", "_")
 
-        print("Creating Folder", user_folder)
+        print("Creating Folder")
         user_folder.mkdir(exist_ok=True)
 
         # Download the submission
@@ -93,7 +93,6 @@ def convert_to_text(dir="submissions"):
                     text = None
 
                     absolute_path = os.path.abspath(file)
-                    print(f"Creating file in folder {folder}: {file}")
 
                     if file.suffix == ".docx":
                         # Convert the docx file to txt
@@ -175,7 +174,7 @@ def get_feedback_by_dir(prompt, dir="submissions", url_check=False):
     for i, submission in enumerate(submissions_folder.iterdir()):
         # Check if the submission is a zip file
 
-        print(f"Processing folder {i+1}/{len(list(submissions_folder.iterdir()))}: {submission}")
+        print(f"Processing folder {i+1}/{len(list(submissions_folder.iterdir()))}")
 
         if submission.is_dir():
             # Get the folder name
