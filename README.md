@@ -6,6 +6,12 @@ School of Life Sciences TEL Team. University of Liverpool
 
 <img src="logo.jpg" alt="UoL logo" width="200"/>
 
+## Summary
+
+## Automated Feedback Generation
+
+This program allows Canvas users with teacher or admin privileges to generate automated feedback on the reference sections of essay or report assignment submissions. The generated feedback can be posted as a submission comment on Canvas. This program helps improve the consistency of feedback received by students while reducing the marking workload for academic staff.
+
 ## Overview
 
 The rapid adoption of Generative Artificial Intelligence (GAI) by students in higher education to complete written assignments is currently a contentious topic among academic teaching staff and is being debated continuously and fiercly. Equivalent attention is yet to be paid to ideas that involve using GAI to, where appropriate, automate the delivery of quality, trustworthy feedback to students on their written work. Such ideas could significantly improve the consistency of feeback received by students while dramatically reducing the marking workload of academic staff.
@@ -44,6 +50,11 @@ For help obtaining your `CANVAS_API_KEY` visit [here](https://community.canvaslm
 
 For help obtaining your `OPEN_AI_KEY` visit [here](https://help.openai.com/en/articles/4936850-where-do-i-find-my-api-key). You will need to signup for a payment plan.
 
+5. Run the Assistive Feedback program using the following command:
+```{bash}
+python main.py
+```
+
 ## For Linux/Max OS
 
 1. Open Terminal
@@ -70,6 +81,11 @@ nano config.py
 For help obtaining your `CANVAS_API_KEY` visit [here](https://community.canvaslms.com/t5/Admin-Guide/How-do-I-manage-API-access-tokens-as-an-admin/ta-p/89).
 
 For help obtaining your `OPEN_AI_KEY` visit [here](https://help.openai.com/en/articles/4936850-where-do-i-find-my-api-key). You will need to signup for a payment plan.
+
+5. Run the Assitive Feedback proram using the following command:
+```{bash}
+python3 main.py
+```
 
 
 
