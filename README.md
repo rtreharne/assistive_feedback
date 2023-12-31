@@ -15,3 +15,66 @@ This project is a case study of how GAI, in this case Chat-GPT, can be used to p
 
 ## Usage
 
+You will need to have Python 3 installed in order to use the program.
+
+## Windows users
+
+1. Install Git Bash
+
+2. Using Git Bash navigate download the repository and cd into the created directory:
+
+```{bash}
+git clone https://github.com/rtreharne/assistive_feedback
+cd assistive_feedback
+```
+
+3. Create a Virtual Environment and install the required packages.
+```{bash}
+python -m virtualenv venv
+source ./venv/Scripts/activate
+pip install -r requirements.txt
+```
+
+4. Create a `config.py` file using `config-example.py` as a template and update it with values for your `CANVAS_API_URL`, `CANVAS_API_TOKEN` and your `OPENAI_API_KEY`.
+```{bash}
+cp config-example.py config.py
+nano config.py
+```
+For help obtaining your `CANVAS_API_KEY` visit [here](https://community.canvaslms.com/t5/Admin-Guide/How-do-I-manage-API-access-tokens-as-an-admin/ta-p/89).
+
+For help obtaining your `OPEN_AI_KEY` visit [here](https://help.openai.com/en/articles/4936850-where-do-i-find-my-api-key). You will need to signup for a payment plan.
+
+## For Linux/Max OS
+
+1. Open Terminal
+
+2. Using Terminal, clone the repository and navigate to the created directory:
+
+```{bash}
+git clone https://github.com/rtreharne/assistive_feedback
+cd assistive_feedback
+```
+
+3. Create a Virtual Environment and install the required packages.
+```{bash}
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+4. Create a `config.py` file using `config-example.py` as a template and update it with values for your `CANVAS_API_URL`, `CANVAS_API_TOKEN` and your `OPENAI_API_KEY`.
+```{bash}
+cp config-example.py config.py
+nano config.py
+```
+For help obtaining your `CANVAS_API_KEY` visit [here](https://community.canvaslms.com/t5/Admin-Guide/How-do-I-manage-API-access-tokens-as-an-admin/ta-p/89).
+
+For help obtaining your `OPEN_AI_KEY` visit [here](https://help.openai.com/en/articles/4936850-where-do-i-find-my-api-key). You will need to signup for a payment plan.
+
+
+
+
+
+
+
+

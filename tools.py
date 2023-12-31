@@ -87,30 +87,36 @@ def convert_to_text(dir="submissions"):
             folder = submissions_folder / folder_name
 
             # Convert the files to plain text
-            for file in folder.iterdir():
+            try:
+                for file in folder.iterdir():
 
-                text = None
+                    text = None
 
-                absolute_path = os.path.abspath(file)
-                print(f"Creating file in folder {folder}: {file}")
+                    absolute_path = os.path.abspath(file)
+                    print(f"Creating file in folder {folder}: {file}")
 
-                if file.suffix == ".docx":
-                    # Convert the docx file to txt
-                    text = docx2txt.process(absolute_path)
+                    if file.suffix == ".docx":
+                        # Convert the docx file to txt
+                        try:
+                            text = docx2txt.process(absolute_path)
+                        except KeyError:
+                            continue
 
-                
-                elif file.suffix == ".pdf":
-                    # Convert the pdf file to txt
-                    text = pdf_to_txt(absolute_path)
+                    
+                    elif file.suffix == ".pdf":
+                        # Convert the pdf file to txt
+                        text = pdf_to_txt(absolute_path)
 
-                # if variable text exists
-                if text:
-                
-                    with open(file.with_suffix(".txt"), "w", encoding="utf-8") as f:
-                        f.write(text)                    
+                    # if variable text exists
+                    if text:
+                    
+                        with open(file.with_suffix(".txt"), "w", encoding="utf-8") as f:
+                            f.write(text)                    
 
-                # Delete the file
-                file.unlink()
+                    # Delete the file
+                    file.unlink()
+            except:
+                continue
 
 def pdf_to_txt(pdf_path):
     with open(pdf_path, 'rb') as file:
@@ -193,7 +199,7 @@ def get_feedback_by_dir(prompt, dir="submissions", url_check=False):
 
                         if url_check:
                             # Check the URLs
-                            print("Checking URLs...")
+ 
                             check_url_string = check_urls(text)
 
                             if check_url_string == "":
@@ -227,8 +233,8 @@ The feedback is not guaranteed to be 100% accurate.
                             f.write(response)
 
     return {
-        "total_cost": '$ {0}'.format(sum(cost_info)),
-        "cost_per_student": '$ {0}'.format(sum(cost_info)/len(cost_info))
+        "total_cost": '$ {0:.4f}'.format(sum(cost_info)),
+        "cost_per_student": '$ {0:.4f}'.format(sum(cost_info)/len(cost_info))
     }
 
 def find_urls(text):
@@ -260,9 +266,6 @@ def check_urls(text):
     for url in urls:
         if not url_exists(url):
             broken_urls += 1
-            print("Broken URL:", url)
-        else:
-            print("URL OK:", url)
 
     # Count how many urls do not contain "doi.org"
     no_doi_urls = 0
@@ -349,7 +352,7 @@ def read_text(path):
     Read the text from a file.
     """
     # Open the file
-    with open(path, "r", encoding='utf-8') as file:
+    with open(path, "r", encoding='utf-8', errors='ignore') as file:
         # Read the text
         text = file.read()
 
