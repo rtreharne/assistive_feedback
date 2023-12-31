@@ -211,7 +211,7 @@ def get_feedback_by_dir(prompt, dir="submissions", url_check=False):
                         # Add disclaimer to response
                         response += f"""
 
-For more information on how to correctly format your citations and reference list, please see the following link: https://libguides.liverpool.ac.uk/referencing/harvard
+For more information on how to correctly format your citations and reference list, please see the following link: https://www.mybib.com/tools/harvard-referencing-generator/cite-them-right
 
 ==============================
 

@@ -87,6 +87,93 @@ For help obtaining your `OPEN_AI_KEY` visit [here](https://help.openai.com/en/ar
 python3 main.py
 ```
 
+## Example Prompt
+
+The following is the default [prompt](./prompt.txt) used to elicit responses from Chat-GPT:
+
+```{text}
+You are a University lecturer tasked with providing feedback to students
+on reference sections of student essays.
+
+Specifically you need to ensure that the reference list adheres to the Harvard referencing style.
+
+Make sure that the references are in the correct format: author name, (year), title, journal, volume, pages, doi/url
+
+Check that the reference list should be organized according to ascending alphabetical order of first author suranme.
+If they are orgainised correctly then give positive comment. If they are not organised correctly then provide recommendation to correct.
+
+Author names for a single reference DO NOT need to be organised by ascending alphabetical order.
+
+The reference list should include multiple references from multiple peer-reviewed sources.
+
+Permit references that are books.
+
+Identify any references that are not peer-reviewed sources and which are not? Insist that students find primary sources to cite.
+If any identified, ask "did you forget to include volume and page numbers, doi/url?"
+
+Do not comment on the essay.
+
+Do not suggest that the student should provide a summary or critique of the reference list.
+
+Do not criticise for the sake of doing so. If it's all good, then provide positive feedback.
+
+Provide no more than 100 words of feedback to the student.
+
+```
+
+## Example Response
+
+### Example Response 1
+
+The following response was generated using [example_input_1.txt](./example_input_1.txt)
+
+
+```{text}
+The references provided are not organized in ascending alphabetical order of the first author's surname. Please rearrange the references in this order. Additionally, the references seem to be from reputable sources such as PubMed and PMC, which is good. However, it's important to ensure that the references are from peer-reviewed journals or books. It seems that some of the references may not be from peer-reviewed sources. Please double-check and ensure that all the references are from peer-reviewed sources. If any are not, please find primary sources to cite. Also, ensure that the references are in the correct Harvard referencing style format, including author name, year, title, journal, volume, pages, and doi/url.
+
+1 of the 5 URLs in your reference list are broken. Please check that all URLs are correct.
+
+5 of the 5 URLs in your reference list do not contain "doi.org". 
+It is strongly recommended that you use the "doi.org" URL for each reference to ensure that the URL is permanently accessible to the reader.
+
+For more information on how to correctly format your citations and reference list, please see the following link: https://www.mybib.com/tools/harvard-referencing-generator/cite-them-right
+
+==============================
+
+Disclaimer: This feedback was generated using Assistive Feedback v.1.0.
+
+The feedback is not guaranteed to be 100% accurate.
+
+==============================
+```
+
+### Example 2
+
+The following response was generated using [example_input_2.txt](./example_input_2.txt)
+
+```{text}
+The references in your list are well-formatted in the Harvard referencing style, with the author names, publication years, titles, journal names, volume, pages, and dois/urls included where applicable. The references are also organized in ascending alphabetical order of the first author's surname, which is great. However, it's important to ensure that all the references are from peer-reviewed sources. The references from "UpToDate" and "Healthline" are not peer-reviewed sources. Please replace these with peer-reviewed articles. Also, for the reference "Dembic, Z. (2015)", did you forget to include volume and page numbers, doi/url? Overall, well done on the formatting and organization of the references!
+
+1 of the 12 URLs in your reference list are broken. Please check that all URLs are correct.
+
+12 of the 12 URLs in your reference list do not contain "doi.org". 
+It is strongly recommended that you use the "doi.org" URL for each reference to ensure that the URL is permanently accessible to the reader.
+
+For more information on how to correctly format your citations and reference list, please see the following link: https://www.mybib.com/tools/harvard-referencing-generator/cite-them-right
+
+==============================
+
+Disclaimer: This feedback was generated using Assistive Feedback v.1.0.
+
+The feedback is not guaranteed to be 100% accurate.
+
+==============================
+                            
+```
+
+
+
+
 
 
 

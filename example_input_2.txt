@@ -1,0 +1,47 @@
+Benjamin, O., Bansal, P., Goyal, A. and Lappin, S.L. (2020). Disease Modifying Anti-Rheumatic Drugs (DMARD). [online] PubMed. Available at: https://www.ncbi.nlm.nih.gov/books/NBK507863/.
+
+Bernhard, S., Hug, S., Stratmann, A.E.P., Erber, M., Vidoni, L., Knapp, C.L., Thomaß, B.D., Fauler, M., Nilsson, B., Ekdahl, K.N., Föhr, K., Braun, C.K., Wohlgemuth, L., Huber-Lang, M. and Messerer, D.A.C. (2021). Interleukin 8 Elicits Rapid Physiological Changes in Neutrophils That Are Altered by Inflammatory Conditions. Journal of Innate Immunity, [online] 13(4), pp.225–241. doi:10.1159/000514885.
+
+Boyce, B.F., Yao, Z. and Xing, L. (2009). Osteoclasts have Multiple Roles in Bone in Addition to Bone Resorption. Critical reviews in eukaryotic gene expression, [online] 19(3), pp.171–180. Available at: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2856465/.
+
+Cahilog, Z., Zhao, H., Wu, L., Alam, A., Eguchi, S., Weng, H. and Ma, D. (2020). The Role of Neutrophil NETosis in Organ Injury: Novel Inflammatory Cell Death Mechanisms. Inflammation, 285(16). doi:10.1007/s10753-020-01294-x.
+
+Dembic, Z. (2015). Chapter 1 - Introduction—Common Features About Cytokines. [online] ScienceDirect. Available at: https://www.sciencedirect.com/science/article/pii/B9780124199989000018 [Accessed 18 Jan. 2023].
+
+Dinarello, C.A. (2017). Overview of the IL-1 family in innate inflammation and acquired immunity. Immunological Reviews, [online] 281(1), pp.8–27. doi:10.1111/imr.12621.
+
+England, B.R. and Mikuls, T.R. (2019). UpToDate. [online] Uptodate.com. Available at: https://www.uptodate.com/contents/epidemiology-of-risk-factors-for-and-possible-causes-of-rheumatoid-arthritis.
+
+Farrugia, M. and Baron, B. (2016). The role of TNF-α in rheumatoid arthritis: a focus on regulatory T cells. Journal of Clinical and Translational Research, [online] 2(3), pp.84–90. Available at: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6410649/.
+
+Ferrante, A. (1992). Activation of neutrophils by interleukins-1 and -2 and tumor necrosis factors. Immunology Series, [online] 57, pp.417–436. Available at: https://pubmed.ncbi.nlm.nih.gov/1504143/ [Accessed 18 Jan. 2023].
+
+Gaffo, A., Saag, K.G. and Curtis, J.R. (2006). Treatment of rheumatoid arthritis. American Journal of Health-System Pharmacy, [online] 63(24), pp.2451–2465. doi:10.2146/ajhp050514.
+
+Henderson, B. and Pettipher, E.R. (1989). Arthritogenic actions of recombinant IL-1 and tumour necrosis factor alpha in the rabbit: evidence for synergistic interactions between cytokines in vivo. Clinical and Experimental Immunology, [online] 75(2), pp.306–310. Available at: https://pubmed.ncbi.nlm.nih.gov/2784740/.
+
+Heutz, J. and de Jong, P.H.P. (2021). Possibilities for personalised medicine in rheumatoid arthritis: hype or hope. RMD Open, 7(3), p.e001653. doi:10.1136/rmdopen-2021-001653.
+
+Hughes, C.E. and Nibbs, R.J.B. (2018). A guide to chemokines and their receptors. The Febs Journal, [online] 285(16), pp.2944–2971. doi:10.1111/febs.14466.
+
+Institute for Quality and Efficiency in Health Care (2018). What is an inflammation? [online] Nih.gov. Available at: https://www.ncbi.nlm.nih.gov/books/NBK279298/.
+
+Jones, S.A. and Rose-John, S. (2002). The role of soluble receptors in cytokine biology: the agonistic properties of the sIL-6R/IL-6 complex. Biochimica et Biophysica Acta (BBA) - Molecular Cell Research, [online] 1592(3), pp.251–263. doi:10.1016/S0167-4889(02)00319-1.
+
+Leonard, W.J. (2003). Paul Fundamental Immunology. [online] Available at: https://lvts.fr/Pages_html/Encyclopedies/FundamentalImmunology/ramiCOMMAND=applyStylesheet(interface.xsl,pau@CH023S04.pub)&p_userid=pau.html.
+
+Levine, S.J. (2008). Molecular Mechanisms of Soluble Cytokine Receptor Generation. Journal of Biological Chemistry, [online] 283(21), pp.14177–14181. doi:10.1074/jbc.r700052200.
+
+Lubberts, E. and van den Berg, W.B. (2013). Cytokines in the Pathogenesis of Rheumatoid Arthritis and Collagen-Induced Arthritis. [online] Nih.gov. Available at: https://www.ncbi.nlm.nih.gov/books/NBK6288/.
+
+Ozaki, K. and Leonard, W.J. (2002). Cytokine and Cytokine Receptor Pleiotropy and Redundancy. Journal of Biological Chemistry, 277(33), pp.29355–29358. doi:10.1074/jbc.r200003200.
+
+Quirch, M., Lee, J. and Rehman, S. (2020). Hazards of the cytokine storm and cytokine-targeted therapy in COVID-19 patients: A Review (Preprint). Journal of Medical Internet Research, 22(8). doi:10.2196/20193.
+
+Towns, M. and Bathon, J. (n.d.). Interleukin-1 Inhibition at Treatment for Rheumatoid Arthritis on Johns Hopkins Arthritis. [online] Johns Hopkins Arthritis Center. Available at: https://www.hopkinsarthritis.org/arthritis-info/rheumatoid-arthritis/ra-treatment/interleukin-1-inhibition/.
+
+Yetman, D. (2021). What Is a Cytokine Storm? [online] Healthline. Available at: https://www.healthline.com/health/cytokine-storm.
+
+Zhang, J.-M. and An, J. (2007). Cytokines, Inflammation, and Pain. International Anesthesiology Clinics, [online] 45(2), pp.27–37. doi:10.1097/aia.0b013e318034194e.
+
+‌
