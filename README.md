@@ -128,7 +128,6 @@ Provide no more than 100 words of feedback to the student.
 The following response was generated using [example_input_1.txt](./example_input_1.txt)
 
 
-```{text}
 The references provided are not organized in ascending alphabetical order of the first author's surname. Please rearrange the references in this order. Additionally, the references seem to be from reputable sources such as PubMed and PMC, which is good. However, it's important to ensure that the references are from peer-reviewed journals or books. It seems that some of the references may not be from peer-reviewed sources. Please double-check and ensure that all the references are from peer-reviewed sources. If any are not, please find primary sources to cite. Also, ensure that the references are in the correct Harvard referencing style format, including author name, year, title, journal, volume, pages, and doi/url.
 
 1 of the 5 URLs in your reference list are broken. Please check that all URLs are correct.
@@ -145,13 +144,12 @@ Disclaimer: This feedback was generated using Assistive Feedback v.1.0.
 The feedback is not guaranteed to be 100% accurate.
 
 ==============================
-```
+
 
 ### Example 2
 
 The following response was generated using [example_input_2.txt](./example_input_2.txt)
 
-```{text}
 The references in your list are well-formatted in the Harvard referencing style, with the author names, publication years, titles, journal names, volume, pages, and dois/urls included where applicable. The references are also organized in ascending alphabetical order of the first author's surname, which is great. However, it's important to ensure that all the references are from peer-reviewed sources. The references from "UpToDate" and "Healthline" are not peer-reviewed sources. Please replace these with peer-reviewed articles. Also, for the reference "Dembic, Z. (2015)", did you forget to include volume and page numbers, doi/url? Overall, well done on the formatting and organization of the references!
 
 1 of the 12 URLs in your reference list are broken. Please check that all URLs are correct.
@@ -168,8 +166,7 @@ Disclaimer: This feedback was generated using Assistive Feedback v.1.0.
 The feedback is not guaranteed to be 100% accurate.
 
 ==============================
-                            
-```
+
 
 
 
