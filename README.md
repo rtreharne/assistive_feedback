@@ -8,9 +8,13 @@ School of Life Sciences TEL Team. University of Liverpool
 
 ## Summary
 
-## Automated Feedback Generation
-
 This program allows Canvas users with teacher or admin privileges to generate automated feedback on the reference sections of essay or report assignment submissions. The generated feedback can be posted as a submission comment on Canvas. This program helps improve the consistency of feedback received by students while reducing the marking workload for academic staff.
+
+To see the program in action checkout the video below:
+
+<a href="https://youtu.be/hJAWgO_3SgE?si=ZglFtDv7K3wbnlhn" target="_blank"><img src="./thumb_1.png" alt="Using Assistive Feedback Video"></a>
+
+
 
 ## Overview
 
