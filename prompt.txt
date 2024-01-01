@@ -27,10 +27,3 @@ Provide no more than 100 words of feedback to the student.
 
 Make sure the response uses UK English.
 
-## Example response
-
-Here is an example response:
-
-```{text}
-
-
