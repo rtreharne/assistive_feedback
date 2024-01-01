@@ -50,7 +50,7 @@ def download_submissions(submissions, dir="submissions"):
             continue
 
         # Create a folder for the user
-        user_folder = submissions_folder / user["sortable_name"].replace(", ", "_")
+        user_folder = submissions_folder / user["sortable_name"].replace(", ", "_").replace("@", "")
 
         print("Creating Folder")
         user_folder.mkdir(exist_ok=True)
